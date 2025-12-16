@@ -399,7 +399,7 @@ export default function PreviewCanvas({
             if (!shared) {
                 showImageModal();
             }
-        } else if (isAndroid && navigator.share) {
+        } else if (isAndroid && typeof navigator.share === 'function') {
             const shared = await shareImage();
             if (!shared) {
                 downloadImages();
