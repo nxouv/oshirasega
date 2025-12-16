@@ -91,7 +91,8 @@ export const FONTS: Record<FontType, FontStyle> = {
     handwriting: {
         id: "handwriting",
         name: "手書き",
-        fontFamily: "var(--font-yomogi)",
+        cssVariable: "var(--font-yomogi)",
+        fontFamily: "'Yomogi', cursive",
         notice: "難しい漢字は表示されないことがあります",
     },
 };
