@@ -17,8 +17,8 @@ https://oshirasega.nanataro.app
 
 ## 🛠 技術スタック
 
-- Next.js 16
-- React 19
+- Next.js
+- React
 - TypeScript
 - Tailwind CSS
 - Google Gemini API
